@@ -36,6 +36,7 @@ ReactDOM.render(
     { /* ConnectedRouter will use the store from Provider automatically */ }
     <ConnectedRouter history={history}>
       <div>
+        test
         <Route exact path="/" component={HomeContainer}/>
       </div>
     </ConnectedRouter>
