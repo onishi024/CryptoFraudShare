@@ -36,10 +36,11 @@ ReactDOM.render(
     { /* ConnectedRouter will use the store from Provider automatically */ }
     <ConnectedRouter history={history}>
       <div>
-        test
-        <Route exact path="/" component={HomeContainer}/>
+        <HomeContainer　/>
       </div>
     </ConnectedRouter>
   </Provider>,
   document.getElementById('root')
 )
+
+// <Route exact path="/" component={HomeContainer}/>
